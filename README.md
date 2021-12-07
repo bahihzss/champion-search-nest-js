@@ -63,7 +63,7 @@ src
 ├── infra
 │   ├── shared
 │   │   └── prisma.service.ts
-│   └── user
+│   └── repositories
 │       ├── user.prisma.repository.spec.ts
 │       └── user.prisma.repository.ts
 ├── main.ts
