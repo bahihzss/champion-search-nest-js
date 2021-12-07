@@ -22,6 +22,32 @@
 * JavaScript だけで使えない（知らなかった・・・）
 * PHP とは違って、同期・非同期を意識しないといけない
   
+## 開発環境の準備
+
+### インストール
+
+```bash
+cp .env.example .env
+yarn
+```
+
+### データベースのマイグレーション
+
+MySQL の Docker コンテナを用意しています。
+
+```bash
+docker-compose up -d
+yarn prisma migrate deploy
+```
+
+### テスト実行
+
+テストが全て通るか確認してください
+
+```bash
+yarn test
+```
+
 ## フォルダ構成
 
 ```
