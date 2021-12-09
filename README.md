@@ -117,3 +117,6 @@ ESLint は Nest.js の標準からセミコロンを消しています
 
 ### TypeScript
 `strict: true` で厳密な型チェックにしていますが、バリデーションの都合で `strictPropertyInitialization` のみ `false` にしています。
+
+### 規約の追加・変更
+レビューの際に、違和感や統一した方が良さそうな箇所があれば Notion で提案し、決定すればコーディング規約に追加する
